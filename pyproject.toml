@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NetworkTestCli"
+version = "0.0.1"
+description = "A lightweight utility to run network tests."
+authors = [{name = "Ruizennis"}]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Environment :: Console",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+Homepage = "https://github.com/Ruizennis/NetworkTestCli"
+Issues = "https://github.com/Ruizennis/NetworkTestCli/issues"
+
+[project.scripts]
+ntcli = "NetworkTestCli:main"
+
+[tool.setuptools]
+packages = ["NetworkTestCli"]
+package-dir = {"" = "src"}
+
