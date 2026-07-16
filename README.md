@@ -31,7 +31,8 @@ ntcli [flags]
 | Ping type | gping / ping |
 ### Ping type is decided by whether gping is avalible, if gping is avalible then it uses it, if not then it uses ping
 
-## Planned features
+## Planned features (OPTIONAL)
 - Speedtest-cli intergration
+- Menu flag utilising fzf_wrapper
 
 # This project is licensed under the MIT license, see [LICENSE](LICENSE).
